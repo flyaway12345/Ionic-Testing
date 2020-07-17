@@ -14,6 +14,7 @@ UserInterfaceState.xcuserstate
 $RECYCLE.BIN/
 *.jks
 *.keystore
+*.apk
 *.log
 log.txt
 npm-debug.log*
