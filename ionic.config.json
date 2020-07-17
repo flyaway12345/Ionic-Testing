@@ -1,7 +1,8 @@
 {
   "name": "Testing",
   "integrations": {
-    "capacitor": {}
+    "capacitor": {},
+    "cordova": {}
   },
   "type": "angular",
   "id": "e016a3cb"
