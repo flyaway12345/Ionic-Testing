@@ -6,13 +6,15 @@
   </ion-toolbar>
 </ion-header>
 
-<ion-content [fullscreen]="true">
+<ion-content [fullscreen]="true" [scrollEvents]="true">
   <ion-header collapse="condense">
     <ion-toolbar>
       <ion-title size="large">Podcasts</ion-title>
     </ion-toolbar>
   </ion-header>
 
+ 
+  <!-- HI Medai Headlines -->
   <ion-card>
     <ion-card-header>
       <ion-card-subtitle>The Most Import News in 5 Minutes Or Less</ion-card-subtitle>
@@ -20,10 +22,11 @@
     </ion-card-header>
   
     <ion-card-content>
-      <iframe src="https://anchor.fm/himediaheadlines/embed/episodes/June-24th-2020-efsmg9/a-a262637" height="102px" width="400px" frameborder="0" scrolling="no"></iframe>
+      <iframe src="https://anchor.fm/himediaheadlines/embed" height="102px" width="400px" frameborder="0" scrolling="no"></iframe>
     </ion-card-content>
   </ion-card>
 
+<!-- HI Soapbox -->
   <ion-card>
     <ion-card-header>
       <ion-card-subtitle>
@@ -34,9 +37,10 @@
     </ion-card-header>
   
     <ion-card-content>
-      <iframe src="https://anchor.fm/hisoapbox/embed/episodes/HI-Soapbox-Bill-Brown-edu9qk/a-a262786" height="102px" width="400px" frameborder="0" scrolling="no"></iframe>    </ion-card-content>
+      <iframe src="https://anchor.fm/hisoapbox/embed" height="102px" width="400px" frameborder="0" scrolling="no"></iframe>    </ion-card-content>
   </ion-card>
 
+  <!-- I Can't Shut Up Unless You Tell Me To  -->
   <ion-card>
     <ion-card-header>
       <ion-card-subtitle>Random Thoughts & Cut HI Media Content</ion-card-subtitle>
@@ -44,8 +48,24 @@
     </ion-card-header>
   
     <ion-card-content>
-      <iframe src="https://anchor.fm/shuttfup/embed/episodes/The-World-is-burning-ft--tyreal-eftk9p/a-a2eekma" height="102px" width="400px" frameborder="0" scrolling="no"></iframe>    </ion-card-content>
+      <iframe src="https://anchor.fm/shuttfup/embed" height="102px" width="400px" frameborder="0" scrolling="no"></iframe>    </ion-card-content>
   </ion-card>
 
+  <!-- The Proving Grounds -->
+  <ion-card>
+    <ion-card-header>
+      <ion-card-subtitle>Debate Show</ion-card-subtitle>
+      <ion-card-title>The Proving Grounds</ion-card-title>
+    </ion-card-header>
   
+    <ion-card-content>
+      <iframe src="https://anchor.fm/himideas/embed" height="102px" width="400px" frameborder="0" scrolling="no"></iframe>
+    </ion-card-content>
+  </ion-card>
+  <br>
+  <br>
+  <br>
+  <br>
 </ion-content>
+
+
