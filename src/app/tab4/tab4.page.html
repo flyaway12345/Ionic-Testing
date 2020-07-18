@@ -1,10 +1,33 @@
 <ion-header>
   <ion-toolbar>
-    <ion-title>RedBubble</ion-title>
+    <ion-title class="head">Stream</ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content>
-  <iframe src="https://www.redbubble.com/people/hi-media/external-portfolio?count=100" scrolling="yes" allowtransparency="true" width="100%" height="100%" frameborder="0"></iframe>
+  <!-- twitch stream -->
+  <ion-card>
+    <ion-card-header>
+      <ion-card-subtitle></ion-card-subtitle>
+      <ion-card-title>Watch Our Stream </ion-card-title>
+    </ion-card-header>
+  
+    <ion-card-content>
+      <iframe src="https://player.twitch.tv/?channel=haggardinnovations&parent=himediahome.herokuapp.com" frameborder="0" allowfullscreen="true" scrolling="no" height="400" width="400"></iframe>
+    </ion-card-content>
+  </ion-card>
+<!-- twitch-->
+<ion-card>
+  <ion-card-header>
+    <ion-card-subtitle></ion-card-subtitle>
+    <ion-card-title>Twitch</ion-card-title>
+  </ion-card-header>
 
+  <ion-card-content>
+
+    <ion-button shape="round" expand="block" size="large" color="twitch" href="https://www.twitch.tv/haggardinnovations">
+      <ion-icon name="logo-twitch" ></ion-icon>
+    </ion-button>
+  </ion-card-content>
+</ion-card>
 </ion-content>

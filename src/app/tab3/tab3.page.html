@@ -1,7 +1,7 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
-    <ion-title>
-      Feed
+    <ion-title class="head">
+      Social
     </ion-title>
   </ion-toolbar>
 </ion-header>
@@ -9,18 +9,71 @@
 <ion-content [fullscreen]="true">
   <ion-header collapse="condense">
     <ion-toolbar>
-      <ion-title size="large">Feed</ion-title>
+      <ion-title size="large">Social</ion-title>
     </ion-toolbar>
   </ion-header>
 
   <ion-card>
     <ion-card-header>
-      <ion-card-subtitle></ion-card-subtitle>
-      <ion-card-title></ion-card-title>
+      <ion-card-subtitle>Follow Us!</ion-card-subtitle>
+      <ion-card-title>Social Links</ion-card-title>
     </ion-card-header>
   
     <ion-card-content>
-      <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fhaggardinnovations&tabs=timeline&width=340&height=500&small_header=true&adapt_container_width=true&hide_cover=false&show_facepile=true&appId=738709066653267" width="340" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
+      <!-- facebook -->
+      <ion-button shape="round" color="tertiary" href="https://www.facebook.com/haggardinnovations/">
+        <ion-icon name="logo-facebook" ></ion-icon>
+      </ion-button>
+
+      <!-- insta -->
+      <ion-button shape="round" color="warning" href="https://www.instagram.com/haggardinnovations/">
+        <ion-icon name="logo-instagram" ></ion-icon>
+      </ion-button>
+
+      <!-- twitter -->
+      <ion-button shape="round" color="secondary" href="https://twitter.com/hisoapbox">
+        <ion-icon name="logo-twitter" ></ion-icon>
+      </ion-button>
+
+      <!-- tiktok -->
+      <ion-button shape="round" color="dark" href="https://www.tiktok.com/@himediayt">
+        <ion-icon name="logo-tiktok" ></ion-icon>
+      </ion-button>
+
+      <!-- tiktok -->
+      <ion-button shape="round" color="danger" href="https://www.pinterest.com/mynewsfeedcenter/">
+        <ion-icon name="logo-pinterest" ></ion-icon>
+      </ion-button>
+    </ion-card-content>
+  </ion-card>
+
+<!-- patreon -->
+  <ion-card>
+    <ion-card-header>
+      <ion-card-subtitle>Consider Supporting Us!</ion-card-subtitle>
+      <ion-card-title>Patreon </ion-card-title>
+    </ion-card-header>
+  
+    <ion-card-content>
+
+      <ion-button shape="round" expand="block" size="large" color="patreon" href="https://www.patreon.com/join/himedia">
+        <ion-icon name="gift-outline"></ion-icon>
+      </ion-button>
+    </ion-card-content>
+  </ion-card>
+
+  <!-- shop -->
+  <ion-card>
+    <ion-card-header>
+      <ion-card-subtitle>Check Out Our Shop!</ion-card-subtitle>
+      <ion-card-title>Shop </ion-card-title>
+    </ion-card-header>
+  
+    <ion-card-content>
+
+      <ion-button shape="round" expand="block" size="large" color="success" href="HI-Media.redbubble.com">
+        <ion-icon name="pricetags-outline"></ion-icon>
+      </ion-button>
     </ion-card-content>
   </ion-card>
 </ion-content>

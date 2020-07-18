@@ -24,3 +24,39 @@
 @import "~@ionic/angular/css/text-alignment.css";
 @import "~@ionic/angular/css/text-transformation.css";
 @import "~@ionic/angular/css/flex-utils.css";
+:root {
+    --ion-color-patreon: #d35634;
+    --ion-color-patreon-rgb: 211,86,52;
+    --ion-color-patreon-contrast: #ffffff;
+    --ion-color-patreon-contrast-rgb: 255,255,255;
+    --ion-color-patreon-shade: #ba4c2e;
+    --ion-color-patreon-tint: #d76748;
+  }
+  
+  .ion-color-patreon {
+    --ion-color-base: var(--ion-color-patreon);
+    --ion-color-base-rgb: var(--ion-color-patreon-rgb);
+    --ion-color-contrast: var(--ion-color-patreon-contrast);
+    --ion-color-contrast-rgb: var(--ion-color-patreon-contrast-rgb);
+    --ion-color-shade: var(--ion-color-patreon-shade);
+    --ion-color-tint: var(--ion-color-patreon-tint);
+  }
+  
+  :root {
+    --ion-color-twitch: #af25b3;
+    --ion-color-twitch-rgb: 175,37,179;
+    --ion-color-twitch-contrast: #ffffff;
+    --ion-color-twitch-contrast-rgb: 255,255,255;
+    --ion-color-twitch-shade: #9a219e;
+    --ion-color-twitch-tint: #b73bbb;
+  }
+  
+  .ion-color-twitch {
+    --ion-color-base: var(--ion-color-twitch);
+    --ion-color-base-rgb: var(--ion-color-twitch-rgb);
+    --ion-color-contrast: var(--ion-color-twitch-contrast);
+    --ion-color-contrast-rgb: var(--ion-color-twitch-contrast-rgb);
+    --ion-color-shade: var(--ion-color-twitch-shade);
+    --ion-color-tint: var(--ion-color-twitch-tint);
+  }
+  
